@@ -4,21 +4,21 @@ TITLE PictureVault
 :start
 ECHO NOTE: You need 7-zip to run this program 
 ECHO -------------------------------
-set /p Disk=place to put the folder 
+set /p Disk=Disk to put the folder:
 ECHO -------------------------------
-set /p FolderName=name of the folder 
+set /p FolderName=name of the folder:
 ECHO -------------------------------
-set /p FileNeedHidden1=file that need hidden 1
+set /p FileNeedHidden1=file that need hidden 1:
 ECHO -------------------------------
-set /p FileNeedHidden2=file that need hidden 2
+set /p FileNeedHidden2=file that need hidden 2:
 ECHO -------------------------------
-set /p ImageInputName=the image you want to contain files
+set /p ImageInputName=the image you want to contain files:
 ECHO -------------------------------
-set /p ImageOutputName=The image that appears after the process, contain files
+set /p ImageOutputName=The image that appears after the process, contain files:
 ECHO -------------------------------
-set /p CompressName=compress name for your files you want to hide
+set /p CompressName=compress name for your files you want to hide:
 ECHO -------------------------------
-set /p ExtensionsHidden=you need 2 files have the same extension. example: *.extension
+set /p ExtensionsHidden=you need 2 files have the same extension. example: *.extension:
 ECHO -------------------------------
 ECHO.
 ECHO If you finished type in forms please press any Key to continue.
