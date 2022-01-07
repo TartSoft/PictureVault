@@ -39,7 +39,8 @@ del /f %FileNeedHidden2%
 REM Hide files in the picture "cheemsborgir.jpg" 
 cd %Disk%/%FolderName%
 copy /b %ImageInputName%.jpg + %CompressName%.rar %ImageOutputName%.jpg
-PAUSE
+msg * The progress is complete 
+PAUSE 
 
 REM Ask user want to out or continue using the program
 ECHO Continue using the program? (TYPE YES/NO)
